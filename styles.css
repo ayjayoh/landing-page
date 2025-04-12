@@ -163,3 +163,10 @@ ul {
     background-color: white;
     color: #3882f6;
 }
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 40px 80px 40px 80px;
+    text-align: center;
+}
