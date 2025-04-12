@@ -19,7 +19,7 @@ h2 {
 
 h3 {
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 900;
 }
 
 h4 {
@@ -93,7 +93,38 @@ ul {
     flex: 1;
     padding-right: 48px;
 }
+
 .hero .right {
     flex: 1;
     border-radius: 8px;
+}
+
+.information {
+    padding: 64px 80px 64px 80px;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+.information h3 {
+    margin-bottom: 32px;
+}
+
+.flex-objects {
+    display: flex;
+}
+
+.object {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 0 16px 0 16px;
+
+}
+
+.object-image {
+    border: solid 3px #3882f6;
+    border-radius: 8px;
+    width: 120px;
+    height: 120px;
 }
