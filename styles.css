@@ -41,6 +41,7 @@ button {
     border-radius: 8px;
     background-color: #3882f6;
     color: white;
+    border: 0;
 
 }
 
@@ -141,4 +142,24 @@ ul {
 
 .quote h4 {
     text-align: right;
+}
+
+.cta {
+    padding: 64px 80px 64px 80px;
+}
+
+.cta-card {
+    padding: 64px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-card button {
+    background-color: white;
+    color: #3882f6;
 }
